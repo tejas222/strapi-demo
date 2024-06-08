@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rollNo": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "contactNo": {
+      "type": "biginteger"
+    },
+    "profilePhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "address": {
+      "type": "text"
+    },
+    "classTeacherName": {
+      "type": "string"
+    },
+    "std": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    }
+  }
+}
